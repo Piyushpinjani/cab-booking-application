@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Cab Wizard">
+    <lightning-progress-indicator current-step={currentStep} type="base" has-error="true" variant="base">
+        <lightning-progress-step label="Step 1" value="1" onclick={handleclick}></lightning-progress-step>
+        <lightning-progress-step label="Step 2" value="2" onclick={handleclick}></lightning-progress-step>
+        <lightning-progress-step label="Step 3" value="3" onclick={handleclick}></lightning-progress-step>
+    </lightning-progress-indicator>
+    <template if:true={isStepOne}>
+        <c-cab-map></c-cab-map>
+    </template>-
+    <template if:true={isStepTwo}>
+        <c-cab-reservation-form></c-cab-reservation-form>
+    </template>
+    <template if:true={isStepThree}>
+        Thankyou...Hope you have a wonderful ride!!!
+    </template>
+    <template if:true={handleBack}>
+            <lightning-button variant="brand" label="Back"  onclick={handleBackClick} ></lightning-button>
+    </template>
+    <template if:true={handleNext}>
+            <lightning-button variant="brand" label="Next"  onclick={handleNextClick} ></lightning-button>
+    </template>
+    <template if:true={handleFinish}>
+            <lightning-button variant="brand" label="Finish"  onclick={handleFinishClick} ></lightning-button>
+    </template>
+    </lightning-card>
+</template>

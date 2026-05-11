@@ -1,0 +1,36 @@
+<template>
+    <lightning-card>
+        <lightning-record-form object-api-name={objectApiName} record-id={recordId} fields={fields}
+            onsuccess={handleSuccess} onsubmit={handleSubmit}>
+        </lightning-record-form>
+    </lightning-card>
+
+    <!-- Modal popup start -->
+<template if:true={openModalPopup}>
+    <div role="dialog" aria-modal="true" class="slds-modal slds-fade-in-open slds-modal_large">
+        <div class="slds-modal__container">
+            <button class="slds-button slds-button_icon slds-modal__close" onclick={CloseModal}>
+                <lightning-icon icon-name='action:close' alternative-text='close' size='small' title='close'></lightning-icon>
+            </button>
+            <div class="slds-modal__header">
+                <h1 class="slds-modal__title slds-hyphenate">Registration Details</h1>
+            </div>
+            <div class="slds-modal__content slds-p-around_medium">
+                <p>
+
+                    <lightning-record-view-form object-api-name="Cab_Reservation__c" record-id={recordId}>
+                        <lightning-output-field field-name="Name"> </lightning-output-field>
+                        <lightning-output-field field-name="Travel_Date_Time__c"> </lightning-output-field>
+                        <lightning-output-field field-name="Travel_From__c"> </lightning-output-field>
+                        <lightning-output-field field-name="Travel_To__c"> </lightning-output-field>
+                    </lightning-record-view-form>
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    <!-- Modal popup end -->
+</template>
+</template>
