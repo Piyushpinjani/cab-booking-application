@@ -1,18 +1,106 @@
-# Salesforce DX Project: Next Steps
+# Cab Booking Application 🚖
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+A Salesforce-based Cab Booking Application developed using Lightning Web Components (LWC), Apex, SOQL, and Salesforce Flows.
 
-## How Do You Plan to Deploy Your Changes?
+The application allows customers to:
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+* Register and log in
+* View cab pickup locations
+* Book intercity cab rides
+* Receive automated booking email notifications
+* Manage reservation details through a step-by-step booking flow
 
-## Configure Your Salesforce DX Project
+---
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+# Features 🚀
 
-## Read All About It
+## Customer Registration & Login 🔐
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+* Customer signup using Salesforce Record Forms
+* Login validation using Apex and SOQL
+* Toast notifications for successful and failed login attempts
+
+---
+
+## Cab Reservation System 🚖
+
+* Cab booking form using Lightning Record Forms
+* Stores customer and travel details
+* Displays booking confirmation popup after reservation
+
+---
+
+## Interactive Cab Pickup Locations 🗺️
+
+* Implemented using `lightning-map`
+* Displays pickup locations across Maharashtra cities
+* Dynamic marker support with location descriptions
+
+---
+
+## Multi-Step Booking Wizard 📋
+
+* Step-by-step booking process using `lightning-progress-indicator`
+* Navigation between booking stages
+* Improved user experience with wizard-based UI flow
+
+---
+
+## Automation Using Salesforce Flow ⚡
+
+* Implemented Record-Triggered Flows on Cab Reservation object
+* Automatically sends email notifications to customers and drivers after successful cab booking
+* Used After Save Flow automation to streamline reservation communication
+
+---
+
+## Toast Notifications & Modal Popup 🔔
+
+* Success and error toast messages for user interactions
+* Modal popup confirmation after cab reservation
+
+---
+
+# Technologies Used 💻
+
+* Salesforce Platform
+* Apex
+* Lightning Web Components (LWC)
+* SOQL
+* Salesforce Flows
+* SLDS
+* NavigationMixin
+* Lightning Map
+
+---
+
+# Salesforce Concepts Used ⚡
+
+* Apex Classes
+* AuraEnabled Methods
+* SOQL Queries
+* Lightning Web Components
+* Record-Triggered Flows
+* Email Automation
+* Event Handling
+* Conditional Rendering
+* Lightning Record Forms
+* Modal Popup
+* Toast Messages
+
+---
+
+# Future Improvements 📈
+
+* Secure password encryption
+* Payment gateway integration
+* Real-time cab tracking
+* Driver availability management
+* Mobile responsive enhancements
+
+---
+
+# Author 👨‍💻
+
+Piyush Pinjani
+Salesforce Developer
