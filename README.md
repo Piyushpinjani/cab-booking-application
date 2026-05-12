@@ -131,6 +131,17 @@ The application allows customers to:
 
 ---
 
+## Booking Confirmation Details
+<img width="1918" height="716" alt="Screenshot 2026-05-12 152648" src="https://github.com/user-attachments/assets/d0db6be5-6311-4cab-9f1c-218604a210c3" />
+
+---
+## Last page
+<img width="1918" height="273" alt="Screenshot 2026-05-12 152721" src="https://github.com/user-attachments/assets/4353465f-2545-4c09-b37d-92224d551ffd" />
+
+---
+
+
+
 # Demo Video 🎥
 
 
