@@ -2,17 +2,6 @@
     --slds-c-card-color-background: #E0F2FE;
     --slds-c-card-heading-color: #0F172A;
 }
-
 lightning-card {
     border-radius: 16px;
-}
-
-.centerText {
-    color: #334155;
-}
-
-.formSection {
-    background: #BAE6FD;
-    border-radius: 12px;
-    padding: 20px;
 }
