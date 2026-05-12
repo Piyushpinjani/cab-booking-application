@@ -27,7 +27,7 @@ export default class CustomerSignin extends NavigationMixin(LightningElement) {
             {
                 //navigate to component
                
-                let cmpDef={componentDef:"c:cabMap"};
+                let cmpDef={componentDef:"c:cabWizard"};
                       //convert obj to string
                       //btoa->Encodes the JSON String into base 64 format->one.app framework
                       
