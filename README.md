@@ -109,14 +109,16 @@ The application allows customers to:
 
 ---
 
+
+## Cab Pickup Locations Map
+<img width="1890" height="757" alt="Cab Wizard" src="https://github.com/user-attachments/assets/8482a28f-3294-401e-b45d-608c12542aa2" />
+
+---
+
 ## Cab Reservation Form
 <img width="1917" height="701" alt="Registration form" src="https://github.com/user-attachments/assets/f4b9dacd-ce96-4e74-853f-64cf5c39d110" />
 
 
----
-
-## Cab Pickup Locations Map
-<img width="1890" height="757" alt="Cab Wizard" src="https://github.com/user-attachments/assets/8482a28f-3294-401e-b45d-608c12542aa2" />
 
 
 ---
