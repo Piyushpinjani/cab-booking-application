@@ -143,9 +143,9 @@ The application allows customers to:
 
 # Demo Video 🎥
 
-<video width="800" controls>
-  <source src="https://github.com/user-attachments/assets/e3d0354e-d143-4bd9-af3c-3dcade543a9d" type="video/mp4">
-</video>
+## Project Video
+
+[![Watch Demo](https://img.shields.io/badge/Watch-Demo-blue?style=for-the-badge)](https://github.com/user-attachments/assets/e3d0354e-d143-4bd9-af3c-3dcade543a9d)
 ---
 
 # Future Improvements 📈
