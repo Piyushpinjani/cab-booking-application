@@ -90,6 +90,55 @@ The application allows customers to:
 
 ---
 
+# Project Screenshots 📸
+
+## Home Page
+<img width="1918" height="368" alt="Home Page" src="https://github.com/user-attachments/assets/47f3bcf1-8a30-421b-81f2-91c7bfc33861" />
+
+
+---
+
+## Customer Registration
+<img width="1918" height="756" alt="Signup page" src="https://github.com/user-attachments/assets/b4880f05-fe12-45f8-93b4-005e2e09eba9" />
+
+
+---
+
+## Login Page
+<img width="1918" height="457" alt="Login page" src="https://github.com/user-attachments/assets/67d072eb-2673-4106-8b88-d7f3c12d5431" />
+
+---
+
+## Cab Reservation Form
+<img width="1917" height="701" alt="Registration form" src="https://github.com/user-attachments/assets/f4b9dacd-ce96-4e74-853f-64cf5c39d110" />
+
+
+---
+
+## Cab Pickup Locations Map
+<img width="1890" height="757" alt="Cab Wizard" src="https://github.com/user-attachments/assets/8482a28f-3294-401e-b45d-608c12542aa2" />
+
+
+---
+
+## Booking Confirmation Popup
+
+
+<img width="1898" height="682" alt="Registration Details" src="https://github.com/user-attachments/assets/efbaa17e-92ba-493f-8d8c-f84143bb4051" />
+
+
+---
+
+# Demo Video 🎥
+
+
+
+
+
+
+
+---
+
 # Future Improvements 📈
 
 * Secure password encryption
@@ -102,5 +151,5 @@ The application allows customers to:
 
 # Author 👨‍💻
 
-Piyush Pinjani
+Piyush Pinjani  
 Salesforce Developer
