@@ -1,3 +1,4 @@
+<img width="800" height="425" alt="cab-booking-demo" src="https://github.com/user-attachments/assets/bd22f0a6-0f9d-4708-b7e7-5312b537d1e0" />
 # Cab Booking Application 🚖
 
 A Salesforce-based Cab Booking Application developed using Lightning Web Components (LWC), Apex, SOQL, and Salesforce Flows.
@@ -144,10 +145,7 @@ The application allows customers to:
 # Demo Video 🎥
 
 
-
-
-
-
+<img width="800" height="425" alt="cab-booking-demo" src="https://github.com/user-attachments/assets/350e14b3-f8e6-4aa7-918a-42432546a5de" />
 
 ---
 
