@@ -95,7 +95,6 @@ The application allows customers to:
 ## Home Page
 <img width="1918" height="368" alt="Home Page" src="https://github.com/user-attachments/assets/47f3bcf1-8a30-421b-81f2-91c7bfc33861" />
 
-
 ---
 
 ## Customer Registration
@@ -119,8 +118,6 @@ The application allows customers to:
 <img width="1917" height="701" alt="Registration form" src="https://github.com/user-attachments/assets/f4b9dacd-ce96-4e74-853f-64cf5c39d110" />
 
 
-
-
 ---
 
 ## Booking Confirmation Popup
@@ -132,10 +129,12 @@ The application allows customers to:
 ---
 
 ## Booking Confirmation Details
+
 <img width="1918" height="716" alt="Screenshot 2026-05-12 152648" src="https://github.com/user-attachments/assets/d0db6be5-6311-4cab-9f1c-218604a210c3" />
 
 ---
-## Last page
+## Booking Success Message
+
 <img width="1918" height="273" alt="Screenshot 2026-05-12 152721" src="https://github.com/user-attachments/assets/4353465f-2545-4c09-b37d-92224d551ffd" />
 
 ---
